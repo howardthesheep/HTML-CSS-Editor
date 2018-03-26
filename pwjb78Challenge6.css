@@ -1,0 +1,42 @@
+body{
+    display: block;
+}
+
+#preview{
+    height: 50%;
+    width: 50%;
+    float: right;
+    margin-right: 15%;
+    background: white;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0 0 slategray;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+#previewFrame{
+    width: 100%;
+    height: 600px;
+}
+
+#codeModule{
+    margin-left: 150px;
+}
+
+
+textarea{
+    width: 23%;
+    margin: 10px;
+    border: 2px solid slategray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 0 slategray;
+}
+
+.codeControl{
+    width: 7%;
+    margin: 10px;
+}
+

@@ -1,0 +1,36 @@
+<!-- 
+    Name: Parker Jones
+    Pawprint: pwjb78
+    Date: 2/23/2018
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Challenge 6</title>
+        <meta charset="UTF-8">
+        <script src="jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="pwjb78Challenge6.css">
+        <script src="pwjb78Challenge6.js"></script>
+    </head>
+    <body>
+        <h1>CS2830 CHALLENGE 6: CODE EDITOR</h1>
+        <div id="preview">
+            <iframe id="previewFrame"></iframe>    
+        </div>
+        <div id="codeModule">
+            <div class="codeInput">
+                <textarea ondblclick="htmlListener()" id="htmlInput" rows="20" placeholder="HTML.."></textarea>
+            </div>
+            <div class="codeInput">
+                <textarea ondblclick="cssListener()" id="cssInput" rows="20" placeholder="CSS.."></textarea>
+            </div>
+            <div id="codeControls">
+                <input type="button" value="Launch" class="codeControl" onclick="updateIframe()">
+                <input type="button" value="Clear" class="codeControl" onclick="clearText()" ondblclick="changeTitle()">
+                <input type="button" value="Toggle" class="codeControl" onclick="toggleCSS()" id="toggleButton">
+            </div>
+        </div>
+        <h2>Created by Parker Jones</h2>
+    </body>
+</html>
